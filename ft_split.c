@@ -89,15 +89,9 @@ char	**ft_split(char const *s, char c)
 		end = start;
 		while (s[end] && s[end] != c)
 			end++;
-		if (start < end)
-		{
-			split[i] = fill_word(s, start, end);
-			if (!split[i])
-			{
-				ft_free(split, i);
-				return (NULL);
-			}
-		}
+		split[i] = fill_word(s, start, end);
+		if (!split[i])
+			ft_free(split, i);
 		i++;
 		start = end;
 	}
