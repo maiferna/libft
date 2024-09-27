@@ -45,10 +45,7 @@ char	*ft_itoa(int n)
 		return (NULL);
 	str[len--] = '\0';
 	if (nbr == 0)
-	{
 		str[0] = '0';
-		return (str);
-	}
 	if (nbr < 0)
 	{
 		str[0] = '-';
