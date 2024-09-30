@@ -60,6 +60,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 	if (!str)
 		return (NULL);
 	ft_memcpy(str, s1 + start, end - start);
-	str[end-start] = '\0';
+	str[end - start] = '\0';
 	return (str);
 }
