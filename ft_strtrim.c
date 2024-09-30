@@ -27,20 +27,6 @@ static int	to_trim(char const *set, char c)
 	}
 	return (0);
 }
-/*
-static char	*new_str(char *dest, char const *src, size_t n)
-{
-	size_t	i;
-
-	i = 0; // reservar memoria
-	while (src[i] != '\0' && i < n)
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	dest[i] = '\0';
-	return (dest);
-}*/
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
