@@ -40,7 +40,14 @@ MY_SOURCE = ft_atoi.c \
 	ft_toupper.c \
 
 BONUS_SOURCE = ft_lstnew_bonus.c \
-    ft_lstadd_front_bonus.c \
+	ft_lstadd_front_bonus.c \
+	ft_lstadd_back_bonus.c \
+	ft_lstclear_bonus.c \
+	ft_lstdelone_bonus.c \
+	ft_lstiter_bonus.c \
+	ft_lstlast_bonus.c \
+	ft_lstmap_bonus.c \
+	ft_lstsize_bonus.c \
 
 OBJ := $(MY_SOURCE:%.c=%.o)
 
